@@ -50,8 +50,13 @@
 }
 
 @media screen and (max-width: 480px) {
+    .gridBody{
+        margin: 5% auto 0 auto;
+        width: 90%;
+    }
     .gridContainer{
         display: block;
+        /* width: 80%; */
     }
 
     .placeContainer{

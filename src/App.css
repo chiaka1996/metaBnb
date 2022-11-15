@@ -15,19 +15,21 @@
 }
 
 .connectWallet{  
+    font-family: 'Red Rose';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     line-height: 30px;
 }
 
 .ButtonMeta{
+    font-family: 'Red Rose';
     height: 68px;
     width: 100%;
     background-color: #F8F9FA;
     border: 1px solid #CFD8DC;
     border-radius: 12px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 23px;
     margin: 2% 0 3% 0;
@@ -48,7 +50,8 @@
 }
 
 .imgMetaFlex{
-    font-Weight: 700;
+    font-family: 'Red Rose';
+    font-Weight: 500;
     font-size: 24px;
     padding: 5% 0 0 0;
 }

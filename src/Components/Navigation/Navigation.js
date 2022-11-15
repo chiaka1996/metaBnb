@@ -7,8 +7,8 @@ const Navigation = ({openModal, openToggle}) => {
     return(
         <div className={nav.navContainer}>
             <div style={{padding: '1% 0 0 0'}}>
-                <img src={logo} alt='logo'/>
-                <img src={metabnb} alt='metabnb'/>
+                <img src={logo} alt='logo' className={nav.logoImgHouse}/>
+                <img src={metabnb} alt='metabnb' className={nav.logoImg}/>
             </div>
 
             <div className={nav.links}>

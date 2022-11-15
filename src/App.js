@@ -51,8 +51,7 @@ function App() {
       centered
       >
       <Modal.Header closeButton>
-          {/* <div className='connectWallet'>Connect Wallet</div> */}
-          <span style={{fontWeight: '700', fontSize: '24px'}}>Connect Wallet</span>
+      <span className='connectWallet'>Connect Wallet</span>
       </Modal.Header>
       <Modal.Body>
         <div className="modalBody">

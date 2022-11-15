@@ -43,6 +43,8 @@
     .navContainer{
         padding: 2% 5%;
     }
+
+    
    .links{
     display: none;
    }
@@ -53,6 +55,16 @@
 
    .menuContainer{
     display: block;
-    padding: 3% 0 2% 0;
+    padding: 0% 0 2% 0;
+   }
+
+   .logoImgHouse{
+    width: 22px;
+    height: 18px;
+   }
+
+   .logoImg{
+    width: 90px;
+    height: 18px;
    }
   }

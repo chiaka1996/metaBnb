@@ -17,7 +17,7 @@
         top: 0;
         left: 0;
         opacity: 1;
-        transition: left 2s;
+        transition: left 1s;
     }
     
     .Container{
@@ -32,7 +32,7 @@
         top: 0;
         left: -100%;
         opacity: 1;
-        transition: left 2s;
+        transition: left 1s;
     }
 
     .link{

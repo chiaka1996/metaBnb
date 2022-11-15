@@ -56,6 +56,7 @@ const Place = () => {
         </div>  
         </button>
 
+    <div className={place.gridBody}>
     <div className={place.gridContainer}>
     <PlacesToStay src={frame1} />
     <PlacesToStay src={frame2} />
@@ -73,7 +74,7 @@ const Place = () => {
     <PlacesToStay src={frame14} />
     <PlacesToStay src={frame15} />
     <PlacesToStay src={frame16} />
-
+    </div>
     </div>
 
     </div>

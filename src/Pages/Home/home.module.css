@@ -101,7 +101,7 @@
 }
 
 .inspirationHeader{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 48px;
     line-height: 60px;
     color: #000000;
@@ -241,6 +241,16 @@
         display: block;
     }
 
+    .Header{ 
+        font-size: 45px;
+        line-height: 120%;
+    }
+
+    .subText{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
     .btnContainer{
         width: 100%;
     }
@@ -266,11 +276,12 @@
     }
 
     .inspirationHeader{
-        font-size: 20px;
+        font-size: 25px;
+        line-height: 30px;
     }
 
     .gridBody{
-        width: 90%;
+        width: 80%;
     }
 
     .gridContainer{
