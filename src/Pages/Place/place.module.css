@@ -1,0 +1,98 @@
+.placeContainer{
+    padding: 4% 10% 4% 10%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    color: #434343;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 5% 5%  0;
+}
+
+.linkContainer button{
+    width: 161px;
+    height: 48px;
+    margin: -2% 0;
+    border: 1px solid #B4B4B4;
+    background-color: white;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+     border-radius: 8PX;
+}
+
+.btnsub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5% 0 0 0;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+}
+
+.mobileLinkContainer{
+    display: none;
+}
+
+.mobileLinkContainer span{
+    margin: 0 5% 0 0;
+}
+
+.mobileLocationBtn{
+   display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .gridContainer{
+        display: block;
+    }
+
+    .placeContainer{
+        padding: 4% 5% 4% 5%;
+    }
+
+    .linkContainer{
+        display: none;
+        overflow-x: scroll;
+        padding: 0 0 0 0;
+        width: 100%;
+    }
+
+    .linkContainer span{
+        margin: 0 2% 0 2%;
+        width: 100%;
+    }
+
+    .mobileLinkContainer{
+        border: 1px solid #B4B4B4;
+        display: flex;
+        overflow-x: scroll;
+        padding: 5% 0 5% 5%;
+        border-radius: 8px;
+       
+    }
+
+    .mobileLinkContainer span{
+        margin: 0 5% 0 0;
+    }
+
+    .mobileLocationBtn{
+        margin: 5% 0;
+        display: block;
+        width: 161px;
+        height: 48px;
+        border: 1px solid #B4B4B4;
+        background-color: white;
+        font-size: 16px;
+        line-height: 19px;
+        color: #333333;
+        border-radius: 8PX;
+    }
+}

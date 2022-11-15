@@ -1,0 +1,93 @@
+.footerContainer{
+    background-color: #1D1D1E;;
+    color: #F7F7F7;
+    padding: 5% 10%;
+    font-family: 'Red Rose';
+}
+
+.footerLinksContainer{
+    display: grid;
+    grid-template-columns:34% 22% 22% 22%;
+}
+
+.logoContainer{
+    position: relative;
+}
+
+.instagram{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #F7F7F7;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.instaCircle{
+    width: 9px;
+    height: 9px;
+    border: 2px solid #F7F7F7;
+    border-radius: 50%;
+    margin: 20% auto 0 auto;
+}
+
+.icons{
+    position: absolute;
+    margin: 0 0;
+    bottom: 20%;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.footerLinksContainer ul{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.linkHeading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.footerLinksContainer ul li{
+    margin: 3% 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #F1F3F9;
+}
+
+.meta202{
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #F7F7F7;
+padding: 0 0 0 1%;
+}
+
+.metabnbContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+    .footerContainer{
+        padding: 5% 3%;
+    }
+
+    .footerLinksContainer{
+        display: block;
+    }
+
+    .icons{
+        position: relative;
+        margin: 10% 0;
+    }
+}

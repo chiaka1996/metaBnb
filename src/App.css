@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.App{
+    font-family: 'Red Rose';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modalContainer{
+    font-family: 'Red Rose';
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.choose{
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.connectWallet{  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.ButtonMeta{
+    height: 68px;
+    width: 100%;
+    background-color: #F8F9FA;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 2% 0 3% 0;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2% 0 0;
+}
+
+.imgMeta{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgMetaFlex{
+    font-Weight: 700;
+    font-size: 24px;
+    padding: 5% 0 0 0;
 }
