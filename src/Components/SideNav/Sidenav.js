@@ -16,7 +16,7 @@ const SideNav = ({closeToggle, toggleSideBar, openModal}) => {
             <img src={logo} alt='logo'/>
             <img src={metabnb} alt='metabnb'/>
             </div>
-            <div style={{padding: '3% 0 0 0'}}>
+            <div className={side.close}>
             
             <img 
             src="https://img.icons8.com/material-sharp/25/null/delete-sign.png"

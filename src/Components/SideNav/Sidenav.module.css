@@ -3,7 +3,7 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
 
     .showContainer{
         font-family: 'Red Rose';
@@ -66,5 +66,15 @@
         font-size: 16px;
         line-height: 20px;
         border: none;
+    }
+
+    .close{
+        padding: 3% 0 0 0;
+    }
+
+    @media screen and (min-width: 500px) {
+        .close{
+            padding: 1% 0 0 0;
+        }
     }
 }

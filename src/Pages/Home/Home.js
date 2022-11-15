@@ -26,13 +26,12 @@ const Home = () => {
        <div className={home.banner}>
         <div className={home.bannerFlex1}>
             <div className={home.Header}>
-                Rent a <span className={home.coloredHead}>Place</span> away from <br/>
-                <span className={home.coloredHead}>Home</span> in the <span className={home.coloredHead}>Metaverse</span>
+                Rent a <span className={home.coloredHead}>Place</span> away from <span className={home.coloredHead}>Home</span> in the <span className={home.coloredHead}>Metaverse</span>
             </div>
 
             <div className={home.subText}>
-            we provide you access to luxury and affordable houses<br/>
-            in the metaverse, get a chance to turn your <br/>
+            we provide you access to luxury and affordable houses
+            in the metaverse, get a chance to turn your 
             imagination to reality at your comfort zone
             </div>
 
@@ -44,12 +43,12 @@ const Home = () => {
         </div>
         <div className={home.bannerFlex2}>
             <div  className={home.imageContainer1}>
-                <img src={image4} alt='image4' />
-                <img src={image6} alt='image4' />
+               <div> <img src={image4} alt='image4' /></div>
+                <div><img src={image6} alt='image4' /></div>
             </div>
             <div className={home.imageContainer2}>
-                <img src={image3} alt='image4' />
-                <img src={image5} alt='image4' />
+               <div> <img src={image3} alt='image4' /></div>
+                <div><img src={image5} alt='image4' /></div>
             </div>
 
         </div>
@@ -58,9 +57,9 @@ const Home = () => {
 
     <div className={home.metaLogo}>
         <div className={home.metaLogoImgContainer}>
-        <img src={group1} alt='frame' />
-        <img src={group2} alt='frame' />
-        <img src={group3} alt='frame' />
+        <div><img src={group1} alt='frame' /></div>
+        <div><img src={group2} alt='frame' /></div>
+        <div><img src={group3} alt='frame' /></div>
         </div>
            </div>
 

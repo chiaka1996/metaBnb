@@ -56,7 +56,7 @@
     height: 52px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -1px;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
     border-radius: 0px 8px 8px 0px;
     border: 1px solid #A3A3A3;
@@ -129,27 +129,50 @@
     margin: 0 0 5% 0;
 }
 
-.gridItem img{
-    /* width: 100%; */
+.gridItemImg{
+    width: 90%;
     height: 265px;
     border-radius: 15px;
 }
 
 .imgText{
+    width: 90%;
+    padding: 3% 0 0 0;
+    margin: 0 auto;
+    }
+
+.starContainer{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+/* .gridItem img{
+    height: 265px;
+    border-radius: 15px;
+} */
+
+.imgText{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3% 8% 0 8%;
+    /* padding: 3% 8% 0 8%; */
     Font-family: 'Red Rose';
     Font-style: Regular;
     Font-size: 12px;
     Line-height: 13.2px;
+    width: 90%;
+    padding: 3% 0 0 0;
+    margin: 0 auto;
 }
 
 .starContainer{
     margin: 3% 0 0 0;
     text-align: left;
-    padding: 0 8% 0 8%;
+    /* padding: 0 8% 0 8%; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
 }
 
 .starContainer img{
@@ -210,6 +233,7 @@
 
 .flex2{
     position: relative;
+    padding: 0 0 0 0;
 }
 
 .image7{
@@ -232,7 +256,7 @@
     z-index: 30;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
     .homeContainer{
         padding: 0 5% 0 5%;
     }
@@ -242,7 +266,7 @@
     }
 
     .Header{ 
-        font-size: 45px;
+        font-size: 37px;
         line-height: 120%;
     }
 
@@ -331,6 +355,117 @@
         left: 40%;
         width: 178px;
         z-index: 30;
+    }
+
+    @media screen and (min-width: 520px){
+        .metaLogoImgContainer{
+            padding: 2% 0 0 0;
+        }
+
+        .inspirationHeader{
+            font-size: 35px;
+            line-height: 35px;
+        }
+        .gridBody{
+            width: 90%;
+        }
+        .gridContainer{
+            display: grid;
+            grid-template-columns: 49% 49%;
+            justify-content: space-between;
+        }
+
+        .gridItemImg{
+            width: 90%;
+            height: 265px;
+            border-radius: 15px;
+        }
+
+        .image7{
+            top: 10%;
+            width: 178px;
+        }
+    
+        .image8{
+            position: absolute;
+            top: 45%;
+            z-index: 10;
+            width: 178px;
+            left: 15%
+            /* right: 5%; */
+        }
+        
+        .image9{
+            position: absolute;
+            top: 60%;
+            left: 37%;
+            width: 178px;
+            z-index: 30;
+        }
+    }
+
+    @media screen and (min-width: 700px){
+        .image7{
+            top: 5%;
+            width: 178px;
+        }
+    
+        .image8{
+            position: absolute;
+            top: 27%;
+            z-index: 10;
+            width: 178px;
+            left: 18%
+            /* right: 5%; */
+        }
+        
+        .image9{
+            position: absolute;
+            top: 40%;
+            left: 37%;
+            width: 178px;
+            z-index: 30;
+        }
+
+    }
+
+    @media screen and (min-width: 900px){
+        .flexContainer{
+            width: 90%;
+            margin: 0 auto;
+            padding: 15% 0 0 0;
+            display: grid;
+            grid-template-columns: 40% 55%;
+            justify-content: space-between;
+        }
+
+        .flex2{
+            padding: 0 0 0 0;
+        }
+
+        .image7{
+            position: absolute;
+            top: 0;
+           left: 34%;
+           width: 270px;
+        }
+        
+        .image8{
+            position: absolute;
+            top: 32%;
+            z-index: 10;
+            left: 1%;
+            width: 270px;
+        }
+        
+        .image9{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            width: 270px;
+            z-index: 30;
+        } 
+
     }
 }
 

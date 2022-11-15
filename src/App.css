@@ -50,6 +50,10 @@
     justify-content: space-between;
 }
 
+.imgMeta img{
+    margin: 0 7% 0 0;
+}
+
 .imgMetaFlex{
     font-family: 'Red Rose';
     font-Weight: 500;

@@ -4,7 +4,7 @@ import home from '../home.module.css'
 const Inspiration = ({src}) => {
     return(
         <div className={home.gridItem}>
-        <img src={src} alt='frame1'/>
+        <img src={src} alt='frame1' className={home.gridItemImg}/>
         <div className={home.imgText}>
             <span>Desert King</span>
             <span>1MBT per night</span>

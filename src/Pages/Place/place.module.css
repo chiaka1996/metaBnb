@@ -49,7 +49,7 @@
    display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
     .gridBody{
         margin: 5% auto 0 auto;
         width: 90%;
@@ -100,4 +100,22 @@
         color: #333333;
         border-radius: 8PX;
     }
+
+    @media screen and (min-width: 520px){
+        .gridBody{
+            width: 90%;
+        }
+        .gridContainer{
+            display: grid;
+            grid-template-columns: 49% 49%;
+            justify-content: space-between;
+        }
+
+        .gridItemImg{
+            width: 90%;
+            height: 265px;
+            border-radius: 15px;
+        }
+    }
+
 }
