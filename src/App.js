@@ -41,6 +41,7 @@ function App() {
     <Sidebar 
     closeToggle={closeToggle}
     toggleSideBar={toggleSideBar}
+    openModal={openModal}
     />
     <Modal
      show={modalShow}

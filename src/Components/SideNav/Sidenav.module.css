@@ -49,4 +49,22 @@
         justify-content: space-between;
         margin: 0 0 10% 0;
     }
+
+    .btnContainer{
+        padding: 1% 0 0 0;
+        text-align: center;
+    }
+    
+    .btn{
+        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        height: 48px;
+        width: 170px;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Red Rose', cursive;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+    }
 }

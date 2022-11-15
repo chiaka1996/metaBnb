@@ -3,7 +3,11 @@ import metabnb from './Images/metabnb.png';
 import side from './Sidenav.module.css'
 import {Link} from 'react-router-dom';
 
-const SideNav = ({closeToggle, toggleSideBar}) => {
+const SideNav = ({closeToggle, toggleSideBar, openModal}) => {
+    // const wallet = () => {
+    //     closeToggle
+    //     openModal
+    // }
     return(
         // <div className={side.barBody}>
         <div className={toggleSideBar ? side.showContainer : side.Container}>
@@ -21,21 +25,64 @@ const SideNav = ({closeToggle, toggleSideBar}) => {
             />
             </div>
             </div>
-            <Link to='/' style={{textDecoration: 'none', color: '#434343'}}>
+            <Link 
+            to='/' 
+            style={{
+                textDecoration: 'none', 
+                color: '#434343'
+            }}
+            onClick={closeToggle}    
+            >
             <div className={side.link}>Home</div>
             </Link>
 
-            <Link to='/' style={{textDecoration: 'none', color: '#434343'}}>
+            <Link 
+            to='/place' 
+            style={{
+                textDecoration: 'none', 
+                color: '#434343'
+            }}
+            onClick={closeToggle} 
+            >
             <div className={side.link}>Place to Stay</div>
             </Link>
 
-            <Link to='/' style={{textDecoration: 'none', color: '#434343'}}>
-            <div className={side.link}>NFTs</div>
-            </Link>
+            {/* <Link 
+            to='/' 
+            style={{
+                textDecoration: 'none', 
+                color: '#434343'
+            }}
+            
+            > */}
+            <div 
+            className={side.link}
+            onClick={closeToggle} 
+            >NFTs</div>
+            {/* </Link> */}
 
-            <Link to='/' style={{textDecoration: 'none', color: '#434343'}}>
-            <div className={side.link}>Community</div>
-            </Link>
+            {/* <Link 
+            to='/' 
+            style={{
+                textDecoration: 'none', 
+                color: '#434343'
+            }}
+            
+            > */}
+            <div 
+            className={side.link}
+            onClick={closeToggle} 
+            >Community</div>
+            {/* </Link> */}
+
+            <div className={side.btnContainer}>
+            <button 
+            className={side.btn} 
+            onClick={openModal}
+            >
+            Connect wallet
+            </button>
+            </div>
             
         </div>
         // </div>
